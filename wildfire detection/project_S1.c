@@ -101,7 +101,7 @@ void ascii_representation(const uint8_t* image, int width, int height) {
 int main() {
 
     int original_width, original_height, channels;
-    uint8_t* original_image = stbi_load("/home/monika/Downloads/test_image6.jpg",
+    uint8_t* original_image = stbi_load("test_image6.jpg",
                                          &original_width, &original_height, &channels, 3);
     
     if (NULL == original_image) {
